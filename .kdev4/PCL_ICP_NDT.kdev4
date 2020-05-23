@@ -1,0 +1,44 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x16\x00P\x00C\x00L\x00_\x00I\x00C\x00P\x00_\x00N\x00D\x00T)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/wangyan/projects/ICP-NDT-LIDAR/PCL_ICP_NDT/build
+Build Type=Debug
+CMake Binary=file:///usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=新建 编译后的二进制文件 启动器
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+EnvironmentGroup=
+Executable=file:///home/wangyan/projects/ICP-NDT-LIDAR/PCL_ICP_NDT/build/pcl_ndt
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=PCL_ICP_NDT,pcl_ndt
+Use External Terminal=false
+Working Directory=
+isExecutable=true
+
+[MakeBuilder]
+Number Of Jobs=8
